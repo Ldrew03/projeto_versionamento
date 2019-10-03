@@ -22,7 +22,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
- 
 }
 
 ol, ul {
@@ -50,7 +49,7 @@ table {
 /*HEADER*/
 
 .color-pepe {
-  color: rgb(240, 223, 70);
+  color: #000;
 }
 
 html {
@@ -102,7 +101,7 @@ header .button-clickable {
 }
 
 .play {
-  background-color: rgba(170, 5, 5, 1);
+  background-color: red;
   color: white;
   padding: 10px 15px;
   width: 10%;
@@ -212,7 +211,7 @@ h2 {
 .pepe-runner {
   width: 25px;
   height: 25px;
-  background-image: url('../img/comendo.png');
+  background-image: url('../img/pepe-standard.png');
   -webkit-background-size: contain;
   background-size: contain;
   position: absolute;
@@ -236,7 +235,7 @@ h2 {
 }
 
 .pepe-standard {
-  background: url("../img/comendo.png");
+  background: url("../img/pepe-standard.png");
   -webkit-background-size: contain;
   background-size: contain;
 }
@@ -313,7 +312,7 @@ h2 {
   height: 10px;
   cursor: pointer;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  background: rgb(0, 0, 0);
+  background: rgba(95, 140, 76, 1);
   border-radius: 5px;
   border: 0.2px solid #010101;
 }
@@ -321,7 +320,7 @@ h2 {
 .game-time__input::-webkit-slider-thumb {
   height: 40px;
   width: 40px;
-  background-image: url("../img/naruto ico.png");
+  background-image: url("../img/pepe-standard.png");
   -webkit-background-size: cover;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0);
@@ -346,12 +345,12 @@ h2 {
 .game-time__input::-moz-range-thumb {
   height: 40px;
   width: 40px;
-  background-image: url("../img/kakashi.jpg");
+  background-image: url("../img/pepe-standard.png");
   -webkit-background-size: cover;
   background-size: cover;
-  background-color: rgba(252, 13, 13, 0);
+  background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
-  -moz-appearance: none;  
+  -moz-appearance: none;
   margin-top: -14px;
   border: none;
 }
@@ -384,7 +383,7 @@ h2 {
 .game-time__input::-ms-thumb {
   height: 40px;
   width: 40px;
-  background-image: url("../img/kakashi.jpg");
+  background-image: url("../img/pepe-standard.png");
   -webkit-background-size: cover;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0);
@@ -419,13 +418,13 @@ h2 {
   display: block;
   width: 25px;
   height: 25px;
-  background: url("../img/naruto ico.png");
+  background: url("../img/pepe-standard.png");
   -webkit-background-size: contain;
   background-size: contain;
 }
 
 .settings-block form input[value="hard"]:checked+label {
-  background: url("../img/naruto.gif");
+  background: url("../img/pepe-angry.jpg");
   -webkit-background-size: contain;
   background-size: contain;
 }
@@ -574,7 +573,7 @@ h2 {
   padding: 5px 8px;
   font-weight: 500;
   color: white;
-  background-color: rgba(175, 21, 21, 1);
+  background-color: rgb(230, 16, 16);
   position: absolute;
   top: 5px;
   right: 5px;
@@ -759,7 +758,7 @@ header .button-clickable {
 }
 
 .rage-mode-page .pepe-standard {
-  background: url('https://data.whicdn.com/images/70602390/original.gif');
+  background: url('http://i0.kym-cdn.com/photos/images/original/000/915/652/b49.gif');
 
   background-size: contain;
 }
